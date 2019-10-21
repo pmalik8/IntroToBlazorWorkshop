@@ -1,0 +1,26 @@
+# Blazor workshop outline
+
+- Intro to Blazor
+  - What is Blazor?
+  - How does it work?
+  - When should you use Blazor?
+- Get started
+  - Where to go first: https://blazor.net
+  - Installing the bits
+  - Creating your first project
+  - Build and run
+- Project structure
+  - Startup
+    - `AddServerSideBlazor()`
+    - `MapBlazorHub()`
+  - *_Host.cshtml*
+    - *blazor.server.js*
+    - `@(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))`
+  - *.razor* files
+  - Root component: *App.razor*, sets up client-side routing
+  - *Pages* folder contains routable components 
+  - *Shared* folder contains other UI components
+  - *Data* folder contains a simple service for getting some dummy weather forecast data
+  - *_Imports.razor*
+- Using components
+  - Components are elements
