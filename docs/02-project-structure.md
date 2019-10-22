@@ -36,4 +36,6 @@ Take a look at the following important files and folders that make up the Blazor
 1. *wwwroot*: The web root folder for the app containing all web addressable static assets.
 1. *appsettings.json, appsettings.Development.json*: Configuration settings for the app.
 
+When the Blazor Server app is run, the initial browser request is routed to the *Pages/_Host.cshtml* page. The page is rendered into the response along with the prerendered content of the `App` component. When the browser receives the response, it executes the *blazor.server.js* script, which sets up the real-time connection with the server. Once the connection is established the app is now interactive. Any UI events, such as tab navigations or button clicks, are sent by the framework to the server. Components handling these events render updated content and just the changes are sent back to the browser to be applied to the DOM.
+
   
