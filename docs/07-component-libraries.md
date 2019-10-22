@@ -16,7 +16,7 @@ To create a component library:
     <RazorClassLibrary1.Component1 />
     ```
 
-1. Alternatively, to add `Component1` without specifying its namespace, add an `@using` statement in *_Imports.razor* for the `RazorClassLibrary1` namespace.
+1. To add `Component1` without specifying its namespace, add an `@using` statement in *_Imports.razor* for the `RazorClassLibrary1` namespace.
 
     ```
     @using RazorClassLibrary1
