@@ -39,7 +39,7 @@ To use a component in markup, add an element that matches the name of the compon
     <Counter />
     ```
 
-1. Run the app. You should now see a Counter on the Home page as well as on the Counter page.
+1. Refresh the app in the browser. You should now see a Counter on the Home page as well as on the Counter page.
 
     ![Counter on Home page](https://user-images.githubusercontent.com/1874516/67259642-d4b70700-f44b-11e9-8f07-ce0a1e01ed9c.png)
 

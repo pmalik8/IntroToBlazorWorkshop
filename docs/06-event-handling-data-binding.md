@@ -53,7 +53,7 @@ Let's add a todo list to the *Pages/Todo.razor* page:
     <button>Add todo</button>
     ```
 
-1. Rebuild and run the app. When the **Add todo** button is selected, nothing happens because an event handler isn't wired up to the button.
+1. Refresh the app in the browser. When the **Add todo** button is selected, nothing happens because an event handler isn't wired up to the button.
 
 1. Add an `AddTodo` method to the `Todo` component and register it for button selections using the `@onclick` attribute. The `AddTodo` C# method is called when the button is selected:
 
@@ -101,7 +101,7 @@ Let's add a todo list to the *Pages/Todo.razor* page:
     }
     ```
 
-1. Rebuild and run the app. Add some todo items to the todo list to test the new code.
+1. Refresh the app in the browser. Add some todo items to the todo list to test the new code.
 
     ![Simple todo list](https://user-images.githubusercontent.com/1874516/67261585-3aa88c00-f456-11e9-8a5d-d2dde0734e9f.png)
 
@@ -160,6 +160,6 @@ Let's add a todo list to the *Pages/Todo.razor* page:
     }
     ```
 
-1. Rebuild and run the app. Add todo items to test the new code.
+1. Refresh the app in the browser. Add todo items to test the new code.
 
     ![Finished todo list](https://user-images.githubusercontent.com/1874516/67261547-fcab6800-f455-11e9-9665-ba38a3ad4922.png)

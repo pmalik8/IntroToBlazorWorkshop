@@ -32,7 +32,7 @@ To create a component library:
     <link href="_content/RazorClassLibrary1/styles.css" rel="stylesheet"/>
     ```
 
-1. Run the app to see `Component1` rendered to the Home page using the custom stylesheet.
+1. Run the app (<kbd>Ctrl</kbd>+<kbd>F5</kbd>) to see `Component1` rendered to the Home page using the custom stylesheet.
 
     ![Component1](https://user-images.githubusercontent.com/1874516/67262748-b3114c00-f45a-11e9-88a2-09de1ab3103b.png)
 

@@ -24,8 +24,9 @@ To create a Blazor app from Visual Studio:
 
 ## Build and run the Blazor app
 
-To build and run the Blazor
-1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run the app.
+To build and run the Blazor app:
+
+1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd>.
 
 ## Explore the Blazor app
 

@@ -25,7 +25,7 @@ To add a page to the app:
     }
     ```
 
-1. Run the app and browse to `/todo` to see the new page.
+1. Browse to `/todo` to see the new page.
 
     ![New Todo page](https://user-images.githubusercontent.com/1874516/67260905-dcc67500-f452-11e9-86a7-802c59d2e4b5.png)
 
