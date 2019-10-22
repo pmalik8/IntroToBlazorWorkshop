@@ -11,4 +11,5 @@
 - [Event handling and data binding](docs/06-event-handling-data-binding.md)
 - [Component libraries](docs/07-component-libraries.md)
 - [JavaScript interop](docs/08-js-interop.md)
-- [Next steps](docs/09-next-steps.md)
+- [Deploy to Azure](docs/09-deploy.md)
+- [Next steps](docs/10-next-steps.md)
