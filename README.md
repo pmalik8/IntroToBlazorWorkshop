@@ -1,6 +1,4 @@
-# Blazor Workshop - Ignite
-
-Introduction to Blazor Workshop
+# Introduction to Blazor Workshop
 
 ## Outline
 
