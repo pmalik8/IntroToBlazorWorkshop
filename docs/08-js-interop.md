@@ -32,7 +32,7 @@ Use the JavaScript interop code in RazorClassLibrary1 to call the JavaScript `pr
     }
     ```
 
-1. Run the app and try out the **Show prompt** button.
+1. Refresh the app in the browser and try out the **Show prompt** button.
 
     ![JavaScript prompt](https://user-images.githubusercontent.com/1874516/67264251-6bd98a00-f45f-11e9-949b-ce9860216482.png)
 
