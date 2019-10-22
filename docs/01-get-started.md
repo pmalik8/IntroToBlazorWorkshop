@@ -20,7 +20,19 @@ To create a Blazor app from Visual Studio:
 1. Create a new project
 1. Select **Blazor App**. Select **Next**.
 1. Specify "BlazorApp1" in the **Project name** field. Select **Create**.
-1. Select the **Blazor Server App** template. Select **Create**.
+1. Ensure that ASP.NET Core 3.0 is selected in the drop down.
+1. Select the **Blazor Server App** template.
+1. Select the **Authentication** > **Change** link.
+1. Explore the various authentication options supported by Blazor Server apps:
+
+    - **No authentication**: No authentication.
+    - **Individual user accounts**: Authentication based on ASP.NET Core Identity or Azure AD B2C.
+    - **Work and School accounts**: Authentication based on Azure AD.
+    - **Windows authentication**: Authentication based on integrated Windows authentication.
+
+1. Make sure that **No authentication** is selected and select **OK**.
+
+1. Select **Create**.
 
 ## Build and run the Blazor app
 
