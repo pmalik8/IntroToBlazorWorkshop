@@ -65,12 +65,12 @@ Add an `IncrementAmount` parameter to the `Counter` component and configure the 
     }
     ```
 
-1. Update the `Counter` component on the Home page to increment by 10 by adding the `IncrementAmount` attribute.
+1. Update the `Counter` component on the Home page to increment by 10 by adding the `IncrementAmount` attribute. Save the file.
 
     ```
     <Counter IncrementAmount="10" />
     ```
 
-1. Run the app and verify that the counter on the Home page now increments by 10, while the counter on the Counter tab still increments by 1.
+1. Switch back to the browser and refresh the page. Verify that the counter on the Home page now increments by 10, while the counter on the Counter tab still increments by 1.
 
     ![Increment amount](https://user-images.githubusercontent.com/1874516/67259988-b9e59200-f44d-11e9-9fa1-37036bde790a.png)
