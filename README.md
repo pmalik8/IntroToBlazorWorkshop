@@ -13,4 +13,4 @@ Introduction to Blazor Workshop
 - [Event handling and data binding](docs/06-event-handling-data-binding.md)
 - [Component libraries](docs/07-component-libraries.md)
 - [JavaScript interop](docs/08-js-interop.md)
-- [Next steps](docs/09-next-steps/md)
+- [Next steps](docs/09-next-steps.md)

@@ -16,7 +16,7 @@ To create a component library:
     <RazorClassLibrary1.Component1 />
     ```
 
-1. To add `Component1` without specifying its namespace, add an `@using` statement in *_Imports.razor* for the `RazorClassLibrary1` namespace.
+1. To add `Component1` without specifying its namespace, add a `@using` statement in *_Imports.razor* for the `RazorClassLibrary1` namespace.
 
     ```
     @using RazorClassLibrary1
@@ -26,7 +26,7 @@ To create a component library:
     <Component1 />
     ```
 
-1. Add a link to the *wwwroot/styles.css* file from RazorClassLibrary1 to BlazorApp1 in *Pages/_Host.cshtml*. Static assets in Razor Class Libraries can be referenced using the path *_content/[library name]/[path under wwwroot]*.
+1. Add a link to the *wwwroot/styles.css* file from RazorClassLibrary1 to BlazorApp1 in *Pages/_Host.cshtml*. Static assets in Razor Class Libraries can be referenced using the path `_content/[library name]/[path under wwwroot]`.
 
     ```
     <link href="_content/RazorClassLibrary1/styles.css" rel="stylesheet"/>

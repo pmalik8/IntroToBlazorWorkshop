@@ -7,6 +7,6 @@ Open *Pages/FetchData.razor* and examine at its contents.
 - `@page "/fetchdata"`: Defines the route for the `FetchData` component.
 - `@using BlazorApp1.Data`: Adds a using statement for the namespace of the `WeatherForecastService` and related types.
 - `@inject WeatherForecastService ForecastService`: Injects the `WeatherForecastService` into the `FetchData` component using the `ForecastService` property.
-- `@if (forecasts == null) { ... }`: Since the forecast data is retrieve asynchronously, the component might render before the forecast data is available. This `@if` statement renders a place holder until the weather data is available.
-- `@foreach (var forecast in forecasts) { ... }`: Loop over each weather forecast and render a corresponding row in the table.
+- `@if (forecasts == null) { ... }`: This `@if` statement renders a place holder if the weather forecast data isn't yet available. Since the forecast data is retrieved asynchronously, the component might render before the forecast data is available. 
+- `@foreach (var forecast in forecasts) { ... }`: Loops over each weather forecast and render a corresponding row in the table.
 - `OnInitializedAsync()`: A component lifecycle method that is called when a component is initialized. The `FetchData` component retrieves the weather forecast data when it is initialized. The component is automatically rendered after the lifecycle event completes *and* after the returned `Task` completes.

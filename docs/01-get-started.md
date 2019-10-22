@@ -49,10 +49,10 @@ Blazor Server apps host Blazor components on the server and handle UI interactio
 
 ![Blazor Server](https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/02/aspnet-core-razor-components.png)
 
-To the mechanics of your Blazor Server app in action:
+To see the mechanics of your Blazor Server app in action:
 
-1. Press <kbd>F12</kbd> in the browser to see the browser dev tools
-1. Select the Network tab
+1. Press <kbd>F12</kbd> in the browser to see the browser dev tools.
+1. Select the **Network** tab.
 1. Press <kbd>F5</kbd> to refresh the app in the browser.
 
 ![Blazor Server network](https://user-images.githubusercontent.com/1874516/67256961-82231e00-f43e-11e9-919f-f96512a4878c.png)
