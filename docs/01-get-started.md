@@ -49,6 +49,16 @@ Blazor Server apps host Blazor components on the server and handle UI interactio
 
 ![Blazor Server](https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/02/aspnet-core-razor-components.png)
 
+To the mechanics of your Blazor Server app in action:
+
+1. Press <kbd>F12</kbd> in the browser to see the browser dev tools
+1. Select the Network tab
+1. Press <kbd>F5</kbd> to refresh the app in the browser.
+
+![Blazor Server network](https://user-images.githubusercontent.com/1874516/67256961-82231e00-f43e-11e9-919f-f96512a4878c.png)
+
+The request to *_blazor* sets up a websocket connection with the server which is used to drive the UI of the app.
+
 Since Blazor Server apps run on .NET Core on the server, they enjoy all the benefits of running on .NET Core including great runtime performance and tooling. Blazor Server apps can leverage the full ecosystem of .NET Standard libraries without any browser imposed limitations.
 
 Alternatively, Blazor apps can run directly in the browser via WebAssembly. Blazor WebAssembly apps host components in the browser using a WebAssembly-based .NET runtime. The components handle UI events and execute their rendering logic directly in the browser. Blazor WebAssembly apps use only open web standards to run .NET code client-side, without the need for any browser plugins or code transpilation. Just like with Blazor Server apps, the Blazor framework handles comparing the newly rendered output with what was rendered previous and updates the DOM accordingly, but with Blazor WebAssembly the UI rendering is handled client-side.
@@ -57,4 +67,4 @@ Alternatively, Blazor apps can run directly in the browser via WebAssembly. Blaz
 
 Blazor WebAssembly is still in preview and isn’t yet ready for production use yet. If you’re looking for a production ready solution, then Blazor Server is what we’d recommend.
 
-For more information on the different [Blazor hosting models](https://docs.microsoft.com/aspnet/core/blazor/hosting-models) see the Blazor docs.
+For more information on the different [Blazor hosting models](https://docs.microsoft.com/aspnet/core/blazor/hosting-models) including Blazor WebAssembly see the Blazor docs.
