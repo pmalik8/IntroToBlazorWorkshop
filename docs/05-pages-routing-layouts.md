@@ -46,6 +46,6 @@ We still need to add the Todo page to the nav menu, which is added by `MainLayou
     </li>
     ```
 
-1. Run the the app and verify that the Todo page now shows up in the nav menu.
+1. Switch back to the browser and refresh the page. Verify that the Todo page now shows up in the nav menu.
 
     ![Todo in nav menu](https://user-images.githubusercontent.com/1874516/67261191-77738380-f454-11e9-85e0-ac7d59a170bc.png)
