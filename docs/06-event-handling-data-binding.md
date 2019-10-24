@@ -4,7 +4,7 @@ Next we'll build a simple todo list and explore Blazor's event handling and data
 
 ## Event handling
 
-Event handlers for DOM elements can be specified using the standard HTML event handling attributes (`onclick`, `oninput`, etc.), but prefixed with an `@` character to specify a C# method. The `@` character won't show up in the rendered markup, but is used as a Razor compiler directive. The value of the attribute can be a method group name (`@onclick="OnClick"`), or an inline delegate defined using lambda syntax (`@onclick="() => currentCount++"`). Event handlers can be sync or async and can take event specific arguments. When a component handles an event it is automatically rendered after the event handler has executed.
+Event handlers for DOM elements can be specified using the standard HTML event handling attributes (`onclick`, `oninput`, etc.), but prefixed with an `@` character. The `@` character won't show up in the rendered markup, but is used as a Razor compiler directive. The value of the attribute can be a method group name (`@onclick="OnClick"`), or an inline delegate defined using lambda syntax (`@onclick="() => currentCount++"`). Event handlers can be sync or async and can take event specific arguments. When a component handles an event, it is automatically rendered after the event handler has executed.
 
 ## Data binding
 

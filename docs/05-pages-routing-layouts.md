@@ -31,9 +31,9 @@ To add a page to the app:
 
 ## Layout
 
-Notice that the new Todo page is rendered using the default app layout. The `Router` component can render pages using a default layout. The layout for our app is defined by the `MainLayout` component, which is specified as the default layout for the app in *App.razor*. Layouts in Blazor are components that derive from `LayoutComponentBase`, which defines a `Body` property that the layout can use to specify where body content should be rendered. To derive a component from a base class, use the `@inherits` directive.
+Notice that the new Todo page is rendered using the default app layout. The `Router` component can render pages using a default layout. The layout for our app is defined by the `MainLayout` component, which is specified as the default layout for the app in *App.razor*. Layouts in Blazor are components that inherit from `LayoutComponentBase`, which defines a `Body` property that the layout can use to specify where body content should be rendered. To have a component inherit from a base class, use the `@inherits` directive.
 
-We still need to add the Todo page to the nav menu, which is added by `MainLayout`.
+Add the Todo page to the nav menu in the app's layout:
 
 1. Open *Shared/NavMenu.razor*
 1. Add the following list item below the existing list items

@@ -13,6 +13,7 @@ Take a look at the following important files and folders that make up the Blazor
     - `ConfigureServices`: Configures the services that should be available to the app through dependency injection. 
       - The Blazor Server services are added by calling `AddServerSideBlazor()`.
       - The `WeatherForecastService` used by the app to generate the weather data is also configured here.
+
 1. *Pages/_Host.cshtml*: The root page of the app implemented a Razor Page. When any page of the app is initially request, this page is rendered and returned in the response.
 
     - *_framework/blazor.server.js*: Framework provide JavaScript that sets up the real-time SignalR connection with the server from the browser.
