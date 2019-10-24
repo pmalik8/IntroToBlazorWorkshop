@@ -21,8 +21,8 @@ To create a Blazor app from Visual Studio:
 
 1. Start Visual Studio 2019.
 1. Select **Sign in** in the welcome screen.
-1. In the **Email** field, enter **<inject key="AzureAdUserEmail"/>**.
-1. In the **Password** field, enter **<inject key="AzureAdUserPassword"/>**.
+1. In the **Email** field, enter **<inject key="AzureAdUserEmail" />**.
+1. In the **Password** field, enter **<inject key="AzureAdUserPassword" />**.
 1. Select your desired development settings and color theme and select **Start Visual Studio**.
 1. Create a new project
 1. Select **Blazor App**. Select **Next**.
