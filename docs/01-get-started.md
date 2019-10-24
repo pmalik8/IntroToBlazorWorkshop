@@ -2,7 +2,9 @@
 
 ## Setup your machine
 
-Blazor is fast and easy to get started with. We've already done all the work you'll need to get started on these machines. But to set up a machine with Blazor yourself, here's what you need to do:
+Blazor is fast and easy to get started with. We've already done all the work you'll need to get started on these machines, but if you want to set up your own machine with Blazor, here's what you would need to do:
+
+> Note: You can just read through these setup steps as they have already been done for you on these machines.
 
 1. Go to https://blazor.net
 1. Click on the "Get Started" link
@@ -17,6 +19,11 @@ Blazor requires the .NET Core 3.0 (or newer) SDK. Visual Studio on Windows will 
 
 To create a Blazor app from Visual Studio:
 
+1. Start Visual Studio 2019.
+1. Select **Sign in** in the welcome screen.
+1. In the **Email** field, enter **<inject key="AzureAdUserEmail"/>**.
+1. In the **Password** field, enter **<inject key="AzureAdUserPassword"/>**.
+1. Select your desired development settings and color theme and select **Start Visual Studio**.
 1. Create a new project
 1. Select **Blazor App**. Select **Next**.
 1. Specify "BlazorApp1" in the **Project name** field. Select **Create**.

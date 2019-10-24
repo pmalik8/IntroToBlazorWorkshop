@@ -4,11 +4,6 @@ Blazor Server apps can be deployed to Azure directly from Visual Studio. When de
 
 To deploy the Blazor Server app to Azure:
 
-1. Select **File** > **Account settings...** > **Sign in**.
-1. In the **Email** field, enter **<inject key="AzureAdUserEmail"/>**.
-1. In the **Password** field, enter **<inject key="AzureAdUserPassword"/>**.
-1. Click **Sign in**.
-1. Close the Account settings dialog.
 1. Right-click on the BlazorApp1 project and select **Publish**.
 1. In the Pick a publish target dialog select **App Service** in the left pane.
 1. Select **Azure App Service** > **Select existing**.

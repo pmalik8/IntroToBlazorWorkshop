@@ -1,6 +1,6 @@
 # JavaScript interop
 
-Blazor apps can call into existing JavaScript libraries and browser APIs. Library authors can create convenient .NET APIs for calling into JavaScript and then share these APIs as NuGet packages. Consumers of these libraries can then call into JavaScript code as it it were C#! To invoke a JavaScript function from Blazor use the `IJSRuntime` service.
+Blazor apps can call into existing JavaScript libraries and browser APIs. Library authors can create convenient .NET APIs for calling into JavaScript and then share these APIs as NuGet packages. Consumers of these libraries can then call into JavaScript code as if it were C#! To invoke a JavaScript function from Blazor use the `IJSRuntime` service.
 
 Use the JavaScript interop code in RazorClassLibrary1 to call the JavaScript `prompt` function:
 

@@ -2,7 +2,7 @@
 
 Services configured in the `Startup.ConfigureServices` are made available to components through dependency injection. To inject a service into a component use the `@inject` directive. The `@inject` directive defines a property on the component that will be populated with the specified service through dependency injection. The `FetchData` component uses the configured `WeatherForecastService` to get weather data, which it then renders in a table.
 
-Open *Pages/FetchData.razor* and examine at its contents.
+Open *Pages/FetchData.razor* and examine its contents.
 
 - `@page "/fetchdata"`: Defines the route for the `FetchData` component.
 - `@using BlazorApp1.Data`: Adds a using statement for the namespace of the `WeatherForecastService` and related types.
