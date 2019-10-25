@@ -14,13 +14,13 @@ Take a look at the following important files and folders that make up the Blazor
       - The Blazor Server services are added by calling `AddServerSideBlazor()`.
       - The `WeatherForecastService` used by the app to generate the weather data is also configured here.
 
-1. *Pages/_Host.cshtml*: The root page of the app implemented a Razor Page. When any page of the app is initially request, this page is rendered and returned in the response.
+1. *Pages/_Host.cshtml*: The root page of the app implemented a Razor Page. When any page of the app is initially requested, this page is rendered and returned in the response.
 
     - *_framework/blazor.server.js*: Framework provide JavaScript that sets up the real-time SignalR connection with the server from the browser.
-    - `@(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))`: Specifies where the root component of the app (`App`) should be rendered.
+    - `@(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))`: Specifies where the root component of the app should be rendered.
 
-1. *App.razor*: The root component of the app that sets up client-side routing using the `Router` component.
-1. *Pages/\*.razor*: The routable components, or pages, that make up the Blazor app. The route for each page is specified using the `@page` directive. The `Router` components intercepts browser navigations and renders the page that matches new address.
+1. *App.razor*: The root component of the app that sets up client-side routing using the `Router` component. The `Router` component intercepts browser navigations and renders the page that matches the new address.
+1. *Pages/\*.razor*: The routable components, or pages, that make up the Blazor app. The route for each page is specified using the `@page` directive.
     
     - *Index.razor*: Implements the Home page.
     - *Counter.razor*: Implements the Counter page.
@@ -37,6 +37,4 @@ Take a look at the following important files and folders that make up the Blazor
 1. *wwwroot*: The web root folder for the app containing all web addressable static assets.
 1. *appsettings.json, appsettings.Development.json*: Configuration settings for the app.
 
-When the Blazor Server app is run, the initial browser request is routed to the *Pages/_Host.cshtml* page. The page is rendered into the response along with the prerendered content of the `App` component. When the browser receives the response, it executes the *blazor.server.js* script, which sets up the real-time connection with the server. Once the connection is established the app is now interactive. Any UI events, such as tab navigations or button clicks, are sent by the framework to the server. Components handling these events render updated content and just the changes are sent back to the browser to be applied to the DOM.
-
-  
+When the Blazor Server app is run, the initial browser request is routed to the *Pages/_Host.cshtml* page. The page is rendered into the response along with the prerendered content of the `App` component. When the browser receives the response, it executes the *blazor.server.js* script, which sets up the real-time connection with the server. Once the connection is established the app is now interactive. Any UI events, such as tab navigations or button clicks, are sent by the framework to the server. Components handling these events render their updated content and the changes are sent back to the browser to be applied to the DOM.

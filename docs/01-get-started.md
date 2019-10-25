@@ -24,7 +24,9 @@ To create a Blazor app from Visual Studio:
 1. In the **Email** field, enter **<inject key="AzureAdUserEmail" />**.
 1. In the **Password** field, enter **<inject key="AzureAdUserPassword" />**.
 1. Select your desired development settings and color theme and select **Start Visual Studio**.
-1. Create a new project
+1. Select the **Check for an updated license** link to refresh the Visual Studio license.
+1. Select **Close**.
+1. Select **Create a new project**.
 1. Select **Blazor App**. Select **Next**.
 1. Specify "BlazorApp1" in the **Project name** field. Select **Create**.
 1. Ensure that ASP.NET Core 3.0 is selected in the drop down.
@@ -46,6 +48,7 @@ To create a Blazor app from Visual Studio:
 To build and run the Blazor app:
 
 1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd>.
+1. If prompted, select **Yes** to trust the IIS Express SSL certificate and then select **Yes** in the following Security Warning prompt to confirm that you want to install the development certificate.
 
 ## Explore the Blazor app
 
@@ -65,7 +68,7 @@ The Fetch data tab displays a table of weather forecast data.
 
 ## What is a Blazor Server app?
 
-Blazor Server apps host Blazor components on the server and handle UI interactions over a real-time SignalR connection. As the user interacts with the app, the UI events are sent to the server over the connection to be handled by the various components that make up the app. When a component handles a UI event, it’s rendered based on its updated state. Blazor compares the newly rendered output with what was rendered previously and send the changes back to the browser and applies them to the DOM.
+Blazor Server apps host Blazor components on the server and handle UI interactions over a real-time SignalR connection. As the user interacts with the app, the UI events are sent to the server over the connection to be handled by the various components that make up the app. When a component handles a UI event, it’s rendered based on its updated state. Blazor compares the newly rendered output with what was rendered previously and sends the changes back to the browser and applies them to the DOM.
 
 ![Blazor Server](https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/02/aspnet-core-razor-components.png)
 

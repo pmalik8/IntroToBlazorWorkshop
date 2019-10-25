@@ -21,13 +21,13 @@ Each time the **Click me** button is selected:
 * The `currentCount` is incremented.
 * The component is rendered again.
 
-The runtime compares the new content to the previous content and only applies the changed content to the Document Object Model (DOM).
+The runtime compares the new content to the previous content and only applies the changed content to the DOM.
 
 ## Using the Counter component
 
 To use a component in markup, add an element that matches the name of the component class.
 
-1. Add a `Counter` component to the home page of the app by adding a `<Counter />` tag:
+1. Add a `Counter` component to the home page of the app by adding a `<Counter />` tag to *Pages/Index.razor*:
 
     ```
     @page "/"
