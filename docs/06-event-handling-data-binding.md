@@ -8,7 +8,7 @@ Event handlers for DOM elements can be specified using the standard HTML event h
 
 ## Data binding
 
-Data binding sets up a two-way binding between a DOM element value (or a component value) and a specified value. When the value of the DOM element is updated, the specified value is update. Also, when the specified value changes, its new value is rendered into the DOM element. To bind a DOM element value to a specific value, use the `@bind` attribute.
+Data binding sets up a two-way binding between a DOM element value (or a component value) and a specified value. When the value of the DOM element is updated, the specified value is updated. Also, when the specified value changes, its new value is rendered into the DOM element. To bind a DOM element value to a specific value, use the `@bind` attribute.
 
 ## Create a todo list
 
@@ -71,7 +71,7 @@ Let's add a todo list to the *Pages/Todo.razor* page:
     }
     ```
 
-1. To get the title of the new todo item, add a `newTodo` string field at the top of the `@code` block and bind it to the value of the text input using the `bind` attribute in the `<input>` element:
+1. To get the title of the new todo item, add a `newTodo` string field at the top of the `@code` block and bind it to the value of the text input using the `@bind` attribute in the `<input>` element:
 
     ```
     <input placeholder="Something todo" @bind="newTodo" />

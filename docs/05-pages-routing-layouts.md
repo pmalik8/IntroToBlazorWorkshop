@@ -9,7 +9,7 @@ The `Router` component handles identifying all routable components within the ap
 To add a page to the app:
 
 1. Right-click on the *Pages* folder and select Add > New item.
-1. Select Razor Component from the Add New Item dialog. Name the file *Todo.razor*.
+1. Select **Razor Component** from the Add New Item dialog. Name the file *Todo.razor*.
 
     ![Add Razor Component](https://user-images.githubusercontent.com/1874516/67260815-57db5b80-f452-11e9-8c96-49bf4d114086.png)
 

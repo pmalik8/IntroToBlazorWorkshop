@@ -4,7 +4,7 @@ Components can be built into reusable component libraries and shared as NuGet pa
 
 To create a component library:
 
-1. Add a new project to the solution
+1. Add a new project to the solution.
 1. Select **Razor Class Library**. Select **Next**.
 1. Specify "RazorClassLibrary1" in the **Project name** field. Select **Create**.
 1. Select the **Razor Class Library** template. Select **Create**.
